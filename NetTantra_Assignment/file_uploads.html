@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="border: 3PX; background-color: bisque; color: rgb(13, 69, 221);padding: 20px;"><marquee>WELCOME TO THE REGISTRATION PORTAL</marquee></h1>
+  <form id="regForm" onsubmit="">
+    <h1>UPLOAD RELAVANT DOCUMENTS</h1>
+
+   <div>
+    <h5><strong>Recent Passport Size Photo : (Image size less than 4MB )</strong></h5>
+    <input type="file" id="imgpicker"
+  accept=".jpeg, .png,.doc,.docx,application/msword">
+
+   </div>
+   
+   <div><h5><strong>HSC Marksheet : (image, PDF or docx size less than 4MB)</strong></h5>
+    <input type="file" id="hcertpicker"
+  accept=".jpeg, .png,.doc,.docx,application/msword"></div>
+
+   <div>
+    <h5><strong>SSC Marksheet : (image, PDF or docx size less than 4MB)</strong></h5>
+    <input type="file" id="scertpicker"
+  accept=".jpeg, .png,.doc,.docx,application/msword">
+   </div>
+
+   <div><h5><strong> All Semister Marksheet : (image, PDF or docx size less than 4MB)</strong></h5>
+    <input type="file" id="imgpicker"
+  accept=".jpeg, .png,.doc,.docx,application/msword">
+</div>
+
+<div class="buttons">
+    <p>
+        <input type="button" value="SUBMIT" style="float: right;" id="submit_btn2">
+    </p>
+  </div>
+  </form>
+
+  <script type="text/javascript">
+    document.getElementById("submit_btn2").onclick = function () {
+      location.href = "thanku.html";
+    }
+  </script>
+</body>
+</html>

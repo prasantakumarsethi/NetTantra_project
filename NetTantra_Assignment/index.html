@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 style="border: 3PX; background-color: bisque; color: rgb(13, 69, 221);padding: 20px;"><marquee>WELCOME TO THE REGISTRATION PORTAL</marquee></h1>
+  <form id="regForm" onsubmit="">
+
+    <h1>REGISTRATION FORM</h1>
+
+    <!-- one tab for all -->
+    <div class="tab"><strong>Name :</strong>
+      <p>
+        <input placeholder="First name..." maxlength="15">
+        <input placeholder="Middle name..." maxlength="15">
+        <input placeholder="Last name..." maxlength="15">
+      </p>
+    </div>
+
+    <div class="tab"><strong>Date Of Birth :</strong>
+      <p><input id="date" type="date" required></p>
+    </div>
+
+    <div class="tab"><strong>E-mail:</strong>
+      <p><input id="email" placeholder="E-mail..." required></p>
+    </div>
+
+
+
+    <div class="tab"><strong>Fathers Name :</strong>
+      <p id="name">
+        <input placeholder="First Name....">
+        <input placeholder="Middle Name....">
+        <input placeholder="Last Name....">
+      </p>
+    </div>
+
+    <div class="tab"><strong>Mothers Name :</strong>
+      <p>
+        <input placeholder="First Name....">
+        <input placeholder="Middle Name....">
+        <input placeholder="Last Name....">
+      </p>
+    </div>
+
+    <div class="tab"><strong>Gender :</strong>
+      <p><input type="radio" value="M"> M </p>
+      <p><input type="radio" value="F"> F </p>
+    </div>
+
+    <div class="tab"><strong>Nationality :</strong>
+      <p><input id="nationality" placeholder="Nationality"></p>
+    </div>
+
+    <div class="tab"><strong>Home Address:</strong>
+      <p><input id="street_address" type="text" placeholder="Street Address"></p>
+      <p><input id="city" type="text" placeholder="city">
+        <select id="country" name="country">
+          <option value="" disabled selected hidden>Country</option>
+          <option value="Afganistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+          <option value="Angola">Angola</option>
+          <option value="Anguilla">Anguilla</option>
+          <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Armenia">Armenia</option>
+          <option value="Aruba">Aruba</option>
+          <option value="Australia">Australia</option>
+          <option value="Austria">Austria</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Bahamas">Bahamas</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Barbados">Barbados</option>
+          <option value="Belarus">Belarus</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Belize">Belize</option>
+          <option value="Benin">Benin</option>
+          <option value="Bermuda">Bermuda</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Bonaire">Bonaire</option>
+          <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+          <option value="Botswana">Botswana</option>
+          <option value="Brazil">Brazil</option>
+          <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+          <option value="Brunei">Brunei</option>
+          <option value="Bulgaria">Bulgaria</option>
+          <option value="Burkina Faso">Burkina Faso</option>
+          <option value="Burundi">Burundi</option>
+          <option value="Cambodia">Cambodia</option>
+          <OPtion value="India">India</OPtion>
+        </select>
+
+      <div class="tab"><strong>Telephone - Home :</strong>
+        <p><input id="home_num" type="number" maxlength="10" required></p>
+      </div>
+
+      <div class="tab"><strong>Telephone - Mobile :</strong>
+        <p><input id="mob_num" type="number" maxlength="10" required></p>
+      </div>
+
+      <div class="buttons">
+        <p>
+          <input type="button" value="SUBMIT" style="float: right;" id="submit_btn">
+        </p>
+      </div>
+  </form>
+
+
+  <script type="text/javascript">
+    document.getElementById("submit_btn").onclick = function () {
+      location.href = "academics.html";
+    }
+  </script>
+  
+</body>
+</html>

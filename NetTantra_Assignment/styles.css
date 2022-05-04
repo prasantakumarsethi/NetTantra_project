@@ -1,0 +1,143 @@
+/* Style the form */
+#regForm {
+    background-color: rgba(17, 221, 221, 0.4);
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 50px;
+    width: 50%;
+    min-width: 300px;
+}
+
+/*heading styling*/
+h1 {
+    color: rgb(246, 15, 15);
+    background-color: rgba(555, 444, 666, 0.4);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*input field styling*/
+input {
+    padding-right: 75px;
+    height: 25px;
+}
+
+#date {
+    width: 660px;
+}
+
+#email {
+    width: 660px;
+}
+
+#nationality {
+    width: 660px;
+}
+
+#street_address {
+    width: 660px;
+}
+
+#city {
+    width: 310px;
+}
+
+#country {
+    width: 344px;
+    height: 31px;
+}
+
+.buttons {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#home_num {
+    width: 660px;
+}
+
+#mob_num {
+    width: 660px;
+}
+
+#submit_btn {
+    height: 33px;
+    border-radius: 25px;
+    text-align: center;
+    width: 40px;
+    padding: 1px 75px 1px 10px;
+    background-color: rgb(37, 13, 250);
+    color: rgb(238, 235, 235);
+    font-size: 17px;
+}
+
+/*.........academics page......... */
+#hsc {
+    width: 660px;
+}
+
+#hsc_board {
+    height: 33px;
+    width: 300px;
+}
+
+#hsc_score {
+    width: 220px;
+}
+
+#ssc {
+    width: 660px;
+}
+
+#ssc_board {
+    height: 33px;
+    width: 300px;
+}
+
+#ssc_score {
+    width: 220px;
+}
+
+#currently {
+    width: 660px;
+}
+
+#currently_persuing {
+    height: 33px;
+    width: 300px;
+}
+
+#current_score {
+    width: 220px;
+}
+
+#backlog {
+    height: 33px;
+}
+
+#submit_btn1 {
+    height: 33px;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    padding: 1px 75px 1px 10px;
+    background-color: rgb(37, 13, 250);
+    color: rgb(238, 235, 235);
+    font-size: 17px;
+    margin: auto;
+}
+
+#submit_btn2 {
+
+    padding-right: 12px;
+    height: 25px;
+    width: -webkit-fill-available;
+    border-radius: 25px;
+    align-items: center;
+    background-color: rgb(37, 13, 250);
+    color: rgb(238, 235, 235);
+    font-size: 17px;
+}

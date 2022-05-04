@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form id="regForm" onsubmit="">
+    <h2 style="color: brown; text-align: center;">THANK YOU FOR REGISTERING</h2>
+    <h3 style="text-align: center;">
+        <p>Your Registration number is </p>
+    </h3>
+     <h3 style="text-align: center;">
+        <p id="reg_num"></p>
+    </h3>
+  </form>
+
+  <script>
+      document.getElementById("reg_num").innerHTML = Math.floor((Math.random() * 100) + 1);
+  </script>
+</body>
+</html>

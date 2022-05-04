@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test_academics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="border: 3PX; background-color: bisque; color: rgb(13, 69, 221);padding: 20px;"><marquee>WELCOME TO THE REGISTRATION PORTAL</marquee></h1>
+    <form id="regForm" action="">
+        <h1>ACADEMIC DETAILS</h1>
+        <div class="tab"><strong>HSC Institute Details :</strong>
+            <p>
+                <input id="hsc" placeholder="HSC Institute Name..." required>
+            </p>
+                <select id="hsc_board" name="hsc_board">
+                    <option value="" disabled selected hidden>Select Board</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="STATE BOARD">STATE BOARD</option>
+                </select>
+            </p>
+        </div>
+        <div>
+        <p>
+            <input id="hsc_score" placeholder="Score in %age" required>
+        </p>
+        
+        <div class="tab"><strong>SSC Institute Details :</strong>
+            <p>
+                <input id="ssc" placeholder="SSC Institute Name..." required>
+            </p>
+                <select id="ssc_board" name="ssc_board">
+                    <option value="" disabled selected hidden>Select Board</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="STATE BOARD">STATE BOARD</option>
+                </select>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <input id="ssc_score" placeholder="Score in %age" required>
+            </p>
+            
+            <div class="tab"><strong>Currently Pursuing Institute Details :</strong>
+                <p>
+                    <input id="currently" placeholder="Currently Institute Name..." required>
+                </p>
+                    <select id="currently_persuing" name="currently">
+                        <option value="" disabled selected hidden>Currently Pursuing</option>
+                        <option value="btech">B Tech</option>
+                        <option value="mtech">M Tech</option>
+                        <option value="bsc">B Sc</option>
+                        <option value="msc">M Sc</option>
+                        <option value="bpharma">B Com</option>
+                    </select>
+                </p>
+            </div>
+
+            <div>
+            <input id="current_score" placeholder="Over all Percentage (%age)" required>
+            </div>
+            <div>
+                <p>
+                    <select id="backlog" name="backlog">
+                        <option value="" disabled selected hidden>Currently Backlog if any?</option>
+                        <option value="YES">YES</option>
+                        <option value="NO">NO</option>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <p>
+                    <input type="button" value="SUBMIT" style="float: right;" id="submit_btn1">
+                </p>
+              </div>
+    </form>
+    <script type="text/javascript">
+        document.getElementById("submit_btn1").onclick = function () {
+          location.href = "file_uploads.html";
+        }
+      </script>
+</body>
+</html>
